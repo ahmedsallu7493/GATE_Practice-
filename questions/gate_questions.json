@@ -1,0 +1,38 @@
+{
+    "questions": [
+      {
+        "id": "2025-verbal-1",
+        "year": "2025",
+        "category": "verbal",
+        "questionNumber": 1,
+        "questionText": "Despite his initial hesitation, Rehman's ______ to contribute to the success of the project never wavered.",
+        "questionImage": "",
+        "options": [
+          {"option": "A", "text": "ambivalence"},
+          {"option": "B", "text": "satisfaction"},
+          {"option": "C", "text": "resolve"},
+          {"option": "D", "text": "revolve"}
+        ],
+        "correctAnswer": "C",
+        "solutionText": "The correct answer is C) resolve. The sentence talks about Rehman's determination to contribute despite initial hesitation, so 'resolve' (meaning firm determination) fits best.",
+        "solutionImage": ""
+      },
+      {
+        "id": "2025-analytical-4",
+        "year": "2025",
+        "category": "analytical",
+        "questionNumber": 4,
+        "questionText": "The paper as shown in the figure is folded to make a cube where each square corresponds to a particular face of the cube. Which one of the following options correctly represents the cube?",
+        "questionImage": "images/cube_folding.png",
+        "options": [
+          {"option": "A", "text": "Option A diagram"},
+          {"option": "B", "text": "Option B diagram"},
+          {"option": "C", "text": "Option C diagram"},
+          {"option": "D", "text": "Option D diagram"}
+        ],
+        "correctAnswer": "C",
+        "solutionText": "This question requires visual analysis of the cube net. The correct answer is C.",
+        "solutionImage": "images/cube_solution.png"
+      }
+    ]
+  }

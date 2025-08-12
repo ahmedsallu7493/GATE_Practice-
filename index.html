@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATE CS Preparation Tool</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+    <header>
+        <h1>GATE Computer Science Preparation Tool</h1>
+        <p>Practice questions continuously with immediate feedback</p>
+    </header>
+
+    <div id="progress-container">
+        <span id="progress-text">Question: 0 | Correct: 0 | Wrong: 0</span>
+        <button id="reset-btn" class="action-btn">Reset All</button>
+    </div>
+
+    <div id="question-container">
+        <div class="loading-message">Loading questions...</div>
+    </div>
+
+    <div id="feedback-container" class="hidden">
+        <div id="feedback-message"></div>
+        <div id="solution-container" class="hidden">
+            <div id="solution-text"></div>
+            <img id="solution-image" class="solution-image hidden">
+        </div>
+        <button id="next-btn" class="action-btn">Next Question</button>
+    </div>
+
+    <div id="test-complete-container" class="hidden">
+        <div id="test-complete-message"></div>
+    </div>
+
+    <footer>
+        <p>© 2025 GATE CS Preparation Tool Created by Ahmed Sallu</p>
+    </footer>
+
+    <script src="scripts/questions.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
